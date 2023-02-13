@@ -14,8 +14,6 @@ const Product = () => {
 
 
       <h2>Checkout our collections</h2>
-
-      
       
       <section className="product-container">
         {filter.map((product) => {

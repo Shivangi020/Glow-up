@@ -4,14 +4,14 @@
   align-items: center;
   box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
 }
-.sticky {
+/* .sticky {
   background: rgba(215, 241, 204, 0.8);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 99;
-}
+} */
 
 .navbar h3 {
   font-family: "Pacifico", cursive;

@@ -33,6 +33,11 @@ code {
   max-width: 300px;
   background-color: #fff;
   padding: 25px;
+  height: 100vh;
+  overflow: scroll;
+  position: sticky;
+  top:0;
+
 }
 
 
