@@ -27,7 +27,7 @@ const [loading, setLoading] = useState(true);
 const [isError,setIsError] = useState(false);
 
   const getData = async () => {
-    const url = `http://makeup-api.herokuapp.com/api/v1/products.json?brand=${brand}`;
+    const url = `https://makeup-api.herokuapp.com/api/v1/products.json?brand=${brand}`;
     setLoading(true);
     try {
       let response = await fetch(url);
