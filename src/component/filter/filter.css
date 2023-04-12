@@ -1,0 +1,57 @@
+
+.category-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-left: calc(100% - 200px);
+  
+  }
+  
+  .category-button {
+    font-size: 1em;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    background-color:white;
+letter-spacing: .10em;
+transition:all 0.3s;
+text-transform: capitalize;
+
+  }
+  
+.category-button:hover {
+padding-left: 20px;
+background-color:rgb(230, 230, 230);
+}
+
+
+.slider{
+  display: flex;
+  justify-content: center;
+}
+
+input[type="range"] {
+  /* -webkit-appearance: none !important; Needed to reset default slider styles */
+  height: 5px;
+  background-color:#146356;
+  border-radius: 10px;
+  margin: auto;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+.cross-icon{
+  font-size: 1.2em ;
+font-weight: 500;
+cursor: pointer;
+color: rgb(140, 18, 18);
+display: block;
+}
+
+@media screen and (min-width:600px) {
+  .cross-icon{
+   visibility: hidden;
+  }
+}

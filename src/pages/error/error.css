@@ -1,0 +1,26 @@
+.error-main{
+    width: calc(100% - 300px);
+    z-index: -1;
+    align-items: center;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error-main img{
+   
+    width:200px;
+    height: 200px;
+}
+
+.error-main h1{
+    color:  #146356;
+    font-weight: 300;
+}
+.error-main h3{
+    color:  #146356;
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: 300;
+}
