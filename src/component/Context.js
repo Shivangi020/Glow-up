@@ -20,7 +20,7 @@ const AppProvider = ({ children }) => {
     setIsLoading(true);
     try {
       let response = await fetch(
-        `http://makeup-api.herokuapp.com/api/v1/products.json?brand=${brand}&price_less_than=${price}`
+        `https://makeup-api.herokuapp.com/api/v1/products.json?brand=${brand}&price_less_than=${price}`
       );
       let data = await response.json();
       setProducts(data);
